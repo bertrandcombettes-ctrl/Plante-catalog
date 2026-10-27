@@ -1,0 +1,571 @@
+{
+  "_note": "BROUILLON v1.2 - valeurs issues de connaissances horticoles générales, NON vérifiées source par source. Chaque fiche doit être relue avant d'être considérée fiable. Mois = 1..12. Intervalles d'arrosage en jours (printemps, été, automne, hiver).",
+  "lieux": [
+    {
+      "id": "balcon",
+      "nom": "Balcon",
+      "type": "balcon_ouvert",
+      "exposition": "SE",
+      "heures_soleil": null,
+      "abrite_pluie": null,
+      "abrite_vent": null,
+      "gps": {
+        "lat": 50.0755,
+        "lon": 14.4378,
+        "ville": "Prague"
+      },
+      "a_completer": [
+        "heures_soleil",
+        "abrite_pluie",
+        "abrite_vent"
+      ]
+    },
+    {
+      "id": "interieur",
+      "nom": "Intérieur",
+      "type": "interieur",
+      "exposition": null,
+      "heures_soleil": null,
+      "a_completer": [
+        "pieces",
+        "exposition"
+      ]
+    }
+  ],
+  "especes": [
+    {
+      "id": "wisteria_sinensis",
+      "nom_latin": "Wisteria sinensis",
+      "noms_communs": [
+        "Glycine de Chine"
+      ],
+      "type": "grimpante",
+      "cycle": "vivace",
+      "lumiere": "plein_soleil",
+      "temp_min": -20,
+      "temp_ideale": [
+        5,
+        30
+      ],
+      "temp_max": 38,
+      "rusticite": "rustique",
+      "arrosage": {
+        "intervalle_jours": [
+          4,
+          3,
+          7,
+          21
+        ],
+        "methode": "dessus",
+        "type": "laisser_secher_surface",
+        "note": "En pot sur balcon: ne pas arroser l'hiver si la pluie suffit."
+      },
+      "dormance_mois": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "engrais": {
+        "type": "pauvre_en_azote_riche_potasse",
+        "intervalle_jours": 30,
+        "mois_actifs": [
+          3,
+          8
+        ]
+      },
+      "rempotage": {
+        "frequence_ans": 3,
+        "mois": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "substrat": "terreau_riche_drainant"
+      },
+      "taille": {
+        "mois": [
+          2,
+          8
+        ],
+        "type": "août: raccourcir les jeunes pousses à 5-6 feuilles; fin d'hiver: ramener à 2-3 bourgeons"
+      },
+      "floraison_mois": [
+        4,
+        5
+      ],
+      "toxicite": {
+        "chats": "oui",
+        "chiens": "oui",
+        "humains": "oui"
+      },
+      "source": "connaissances générales - à vérifier",
+      "verifie": false
+    },
+    {
+      "id": "allium_schoenoprasum",
+      "nom_latin": "Allium schoenoprasum",
+      "noms_communs": [
+        "Ciboulette"
+      ],
+      "type": "aromatique",
+      "cycle": "vivace",
+      "lumiere": "plein_soleil",
+      "temp_min": -30,
+      "temp_ideale": [
+        10,
+        25
+      ],
+      "temp_max": 35,
+      "rusticite": "rustique",
+      "arrosage": {
+        "intervalle_jours": [
+          3,
+          2,
+          5,
+          14
+        ],
+        "methode": "dessus",
+        "type": "garder_frais"
+      },
+      "dormance_mois": [
+        12,
+        1,
+        2
+      ],
+      "note_dormance": "La partie aérienne disparaît en hiver et repart au printemps: normal.",
+      "engrais": {
+        "type": "universel_leger",
+        "intervalle_jours": 30,
+        "mois_actifs": [
+          3,
+          9
+        ]
+      },
+      "rempotage": {
+        "frequence_ans": 2,
+        "mois": [
+          3,
+          9
+        ],
+        "substrat": "terreau_universel",
+        "note": "division de la touffe"
+      },
+      "taille": {
+        "mois": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "type": "couper à 3-5 cm du sol, régulièrement"
+      },
+      "floraison_mois": [
+        6,
+        7
+      ],
+      "recolte_mois": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "toxicite": {
+        "chats": "oui",
+        "chiens": "oui",
+        "humains": "non"
+      },
+      "source": "connaissances générales - à vérifier",
+      "verifie": false
+    },
+    {
+      "id": "eutrema_japonicum",
+      "nom_latin": "Eutrema japonicum",
+      "noms_communs": [
+        "Wasabi"
+      ],
+      "type": "legume_condiment",
+      "cycle": "vivace",
+      "lumiere": "ombre",
+      "temp_min": 0,
+      "temp_ideale": [
+        8,
+        20
+      ],
+      "temp_max": 24,
+      "rusticite": "protege_du_gel",
+      "arrosage": {
+        "intervalle_jours": [
+          2,
+          1,
+          2,
+          3
+        ],
+        "methode": "dessus",
+        "type": "garder_humide",
+        "note": "Sol constamment frais et humide, jamais détrempé."
+      },
+      "dormance_mois": [],
+      "humidite_air": "forte",
+      "engrais": {
+        "type": "universel_leger",
+        "intervalle_jours": 30,
+        "mois_actifs": [
+          3,
+          9
+        ]
+      },
+      "rempotage": {
+        "frequence_ans": 2,
+        "mois": [
+          3,
+          4
+        ],
+        "substrat": "terreau_riche_frais"
+      },
+      "taille": {
+        "mois": [],
+        "type": "retirer les feuilles abîmées"
+      },
+      "toxicite": {
+        "chats": "inconnu",
+        "chiens": "inconnu",
+        "humains": "non"
+      },
+      "alerte_canicule": true,
+      "source": "connaissances générales - FAIBLE CONFIANCE, à vérifier en priorité",
+      "verifie": false
+    },
+    {
+      "id": "nephrolepis_exaltata",
+      "nom_latin": "Nephrolepis exaltata",
+      "noms_communs": [
+        "Fougère de Boston"
+      ],
+      "type": "fougere",
+      "cycle": "vivace",
+      "lumiere": "mi_ombre",
+      "temp_min": 10,
+      "temp_ideale": [
+        16,
+        24
+      ],
+      "temp_max": 30,
+      "rusticite": "interieur",
+      "arrosage": {
+        "intervalle_jours": [
+          4,
+          3,
+          5,
+          7
+        ],
+        "methode": "dessus",
+        "type": "garder_legerement_humide"
+      },
+      "humidite_air": "forte",
+      "brumisation": true,
+      "dormance_mois": [],
+      "engrais": {
+        "type": "universel_demi_dose",
+        "intervalle_jours": 30,
+        "mois_actifs": [
+          4,
+          9
+        ]
+      },
+      "rempotage": {
+        "frequence_ans": 2,
+        "mois": [
+          3,
+          4,
+          5
+        ],
+        "substrat": "terreau_leger_humus"
+      },
+      "taille": {
+        "mois": [],
+        "type": "couper les frondes sèches à la base, au besoin"
+      },
+      "toxicite": {
+        "chats": "non",
+        "chiens": "non",
+        "humains": "non"
+      },
+      "source": "connaissances générales - à vérifier",
+      "verifie": false
+    },
+    {
+      "id": "spathiphyllum",
+      "nom_latin": "Spathiphyllum wallisii",
+      "noms_communs": [
+        "Spathiphyllum",
+        "Fleur de lune"
+      ],
+      "type": "plante_interieur",
+      "cycle": "vivace",
+      "lumiere": "mi_ombre",
+      "temp_min": 12,
+      "temp_ideale": [
+        18,
+        25
+      ],
+      "temp_max": 30,
+      "rusticite": "interieur",
+      "arrosage": {
+        "intervalle_jours": [
+          5,
+          4,
+          7,
+          10
+        ],
+        "methode": "dessus",
+        "type": "garder_legerement_humide",
+        "note": "Les feuilles s'affaissent quand il a soif."
+      },
+      "humidite_air": "forte",
+      "dormance_mois": [],
+      "engrais": {
+        "type": "plantes_vertes",
+        "intervalle_jours": 30,
+        "mois_actifs": [
+          3,
+          9
+        ]
+      },
+      "rempotage": {
+        "frequence_ans": 2,
+        "mois": [
+          3,
+          4,
+          5
+        ],
+        "substrat": "terreau_plantes_vertes"
+      },
+      "taille": {
+        "mois": [],
+        "type": "couper les fleurs fanées à la base"
+      },
+      "toxicite": {
+        "chats": "oui",
+        "chiens": "oui",
+        "humains": "leger"
+      },
+      "source": "connaissances générales - à vérifier",
+      "verifie": false
+    },
+    {
+      "id": "ficus_benjamina",
+      "nom_latin": "Ficus benjamina",
+      "noms_communs": [
+        "Ficus benjamina",
+        "Figuier pleureur"
+      ],
+      "type": "plante_interieur",
+      "cycle": "vivace",
+      "lumiere": "vive_indirecte",
+      "temp_min": 12,
+      "temp_ideale": [
+        18,
+        26
+      ],
+      "temp_max": 32,
+      "rusticite": "interieur",
+      "arrosage": {
+        "intervalle_jours": [
+          7,
+          5,
+          8,
+          14
+        ],
+        "methode": "dessus",
+        "type": "laisser_secher_surface"
+      },
+      "sensibilites": [
+        "deplacement",
+        "courants_d_air"
+      ],
+      "dormance_mois": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "engrais": {
+        "type": "plantes_vertes",
+        "intervalle_jours": 21,
+        "mois_actifs": [
+          3,
+          9
+        ]
+      },
+      "rempotage": {
+        "frequence_ans": 2,
+        "mois": [
+          4,
+          5
+        ],
+        "substrat": "terreau_drainant"
+      },
+      "taille": {
+        "mois": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "type": "pincement des pousses; taille de formation (projet bonsaï)"
+      },
+      "projet": {
+        "nom": "Bonsaï",
+        "echeance_ans": 2,
+        "note": "Prévoir un module projet: étapes de formation (taille, ligature, rempotage racinaire)."
+      },
+      "toxicite": {
+        "chats": "oui",
+        "chiens": "oui",
+        "humains": "leger",
+        "note": "Latex irritant"
+      },
+      "source": "connaissances générales - à vérifier",
+      "verifie": false
+    },
+    {
+      "id": "phalaenopsis",
+      "nom_latin": "Phalaenopsis",
+      "noms_communs": [
+        "Orchidée papillon"
+      ],
+      "type": "orchidee",
+      "cycle": "vivace",
+      "lumiere": "vive_indirecte",
+      "temp_min": 15,
+      "temp_ideale": [
+        18,
+        27
+      ],
+      "temp_max": 32,
+      "rusticite": "interieur",
+      "arrosage": {
+        "intervalle_jours": [
+          7,
+          6,
+          8,
+          12
+        ],
+        "methode": "trempage",
+        "type": "laisser_secher_substrat",
+        "note": "Tremper 10-15 min puis égoutter; racines grises/argentées = prête à arroser."
+      },
+      "humidite_air": "moyenne",
+      "dormance_mois": [],
+      "engrais": {
+        "type": "orchidees",
+        "intervalle_jours": 14,
+        "mois_actifs": [
+          3,
+          10
+        ],
+        "note": "demi-dose, un arrosage sur deux"
+      },
+      "rempotage": {
+        "frequence_ans": 2,
+        "mois": [
+          3,
+          4,
+          5
+        ],
+        "substrat": "ecorce_orchidees",
+        "note": "après floraison"
+      },
+      "taille": {
+        "mois": [],
+        "type": "couper la hampe florale après floraison (à la base, ou au-dessus du 2e nœud)"
+      },
+      "toxicite": {
+        "chats": "non",
+        "chiens": "non",
+        "humains": "non"
+      },
+      "source": "connaissances générales - à vérifier",
+      "verifie": false
+    }
+  ],
+  "plantes": [
+    {
+      "id": "p_glycine",
+      "surnom": "Glycine",
+      "espece_id": "wisteria_sinensis",
+      "lieu_id": "balcon",
+      "pot": null
+    },
+    {
+      "id": "p_ciboulette",
+      "surnom": "Ciboulette",
+      "espece_id": "allium_schoenoprasum",
+      "lieu_id": "balcon",
+      "pot": null
+    },
+    {
+      "id": "p_wasabi",
+      "surnom": "Wasabi",
+      "espece_id": "eutrema_japonicum",
+      "lieu_id": "balcon",
+      "pot": null,
+      "alerte": "sensible à la chaleur: surveiller l'été"
+    },
+    {
+      "id": "p_fougere",
+      "surnom": "Fougère",
+      "espece_id": "nephrolepis_exaltata",
+      "lieu_id": "interieur",
+      "pot": null,
+      "a_verifier": "espèce supposée (Boston), à confirmer par photo"
+    },
+    {
+      "id": "p_spatiphyllum",
+      "surnom": "Spatiphyllum",
+      "espece_id": "spathiphyllum",
+      "lieu_id": "interieur",
+      "pot": null
+    },
+    {
+      "id": "p_ficus",
+      "surnom": "Ficus",
+      "espece_id": "ficus_benjamina",
+      "lieu_id": "interieur",
+      "pot": null,
+      "projet": "bonsai_2_ans"
+    },
+    {
+      "id": "p_orchidee_1",
+      "surnom": "Orchidée Phalaenopsis",
+      "espece_id": "phalaenopsis",
+      "lieu_id": "interieur",
+      "pot": null
+    },
+    {
+      "id": "p_orchidee_2",
+      "surnom": "Orchidée 2",
+      "espece_id": null,
+      "lieu_id": "interieur",
+      "pot": null,
+      "a_identifier": true
+    },
+    {
+      "id": "p_orchidee_3",
+      "surnom": "Orchidée 3",
+      "espece_id": null,
+      "lieu_id": "interieur",
+      "pot": null,
+      "a_identifier": true
+    }
+  ]
+}
