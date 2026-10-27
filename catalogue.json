@@ -1,5 +1,5 @@
 {
-  "_note": "BROUILLON v1.2 - valeurs issues de connaissances horticoles générales, NON vérifiées source par source. Chaque fiche doit être relue avant d'être considérée fiable. Mois = 1..12. Intervalles d'arrosage en jours (printemps, été, automne, hiver).",
+  "_note": "BROUILLON v1.3 - valeurs issues de connaissances horticoles générales, NON vérifiées source par source. Chaque fiche doit être relue avant d'être considérée fiable. Mois = 1..12. Intervalles d'arrosage en jours (printemps, été, automne, hiver). Statut \"recoupee\" = recoupée avec des sources, pas vérifiée à 100 %.",
   "lieux": [
     {
       "id": "balcon",
@@ -42,7 +42,7 @@
       "type": "grimpante",
       "cycle": "vivace",
       "lumiere": "plein_soleil",
-      "temp_min": -20,
+      "temp_min": -15,
       "temp_ideale": [
         5,
         30
@@ -83,7 +83,8 @@
           2,
           3
         ],
-        "substrat": "terreau_riche_drainant"
+        "substrat": "terreau_riche_drainant",
+        "note": "pot d'au moins 45 cm"
       },
       "taille": {
         "mois": [
@@ -101,8 +102,9 @@
         "chiens": "oui",
         "humains": "oui"
       },
-      "source": "connaissances générales - à vérifier",
-      "verifie": false
+      "source": "recoupée (sites botaniques/jardineries) - corrections du 27/10/2026",
+      "verifie": false,
+      "statut": "recoupee"
     },
     {
       "id": "allium_schoenoprasum",
@@ -145,13 +147,13 @@
         ]
       },
       "rempotage": {
-        "frequence_ans": 2,
+        "frequence_ans": 3,
         "mois": [
           3,
           9
         ],
         "substrat": "terreau_universel",
-        "note": "division de la touffe"
+        "note": "division de la touffe tous les 3 ans"
       },
       "taille": {
         "mois": [
@@ -183,8 +185,9 @@
         "chiens": "oui",
         "humains": "non"
       },
-      "source": "connaissances générales - à vérifier",
-      "verifie": false
+      "source": "recoupée (sites botaniques/jardineries) - corrections du 27/10/2026",
+      "verifie": false,
+      "statut": "recoupee"
     },
     {
       "id": "eutrema_japonicum",
@@ -198,9 +201,9 @@
       "temp_min": 0,
       "temp_ideale": [
         8,
-        20
+        21
       ],
-      "temp_max": 24,
+      "temp_max": 27,
       "rusticite": "protege_du_gel",
       "arrosage": {
         "intervalle_jours": [
@@ -241,8 +244,12 @@
         "humains": "non"
       },
       "alerte_canicule": true,
-      "source": "connaissances générales - FAIBLE CONFIANCE, à vérifier en priorité",
-      "verifie": false
+      "source": "recoupée partiellement - seuil de gel non trouvé",
+      "verifie": false,
+      "a_verifier": [
+        "temp_min (seuil de gel non trouvé)"
+      ],
+      "statut": "a_verifier_en_priorite"
     },
     {
       "id": "nephrolepis_exaltata",
@@ -299,8 +306,9 @@
         "chiens": "non",
         "humains": "non"
       },
-      "source": "connaissances générales - à vérifier",
-      "verifie": false
+      "source": "recoupée (sites botaniques/jardineries) - corrections du 27/10/2026",
+      "verifie": false,
+      "statut": "recoupee"
     },
     {
       "id": "spathiphyllum",
@@ -312,7 +320,7 @@
       "type": "plante_interieur",
       "cycle": "vivace",
       "lumiere": "mi_ombre",
-      "temp_min": 12,
+      "temp_min": 13,
       "temp_ideale": [
         18,
         25
@@ -358,8 +366,9 @@
         "chiens": "oui",
         "humains": "leger"
       },
-      "source": "connaissances générales - à vérifier",
-      "verifie": false
+      "source": "recoupée (sites botaniques/jardineries) - corrections du 27/10/2026",
+      "verifie": false,
+      "statut": "recoupee"
     },
     {
       "id": "ficus_benjamina",
@@ -371,7 +380,7 @@
       "type": "plante_interieur",
       "cycle": "vivace",
       "lumiere": "vive_indirecte",
-      "temp_min": 12,
+      "temp_min": 13,
       "temp_ideale": [
         18,
         26
@@ -416,12 +425,11 @@
       },
       "taille": {
         "mois": [
+          2,
           3,
-          4,
-          5,
-          6
+          4
         ],
-        "type": "pincement des pousses; taille de formation (projet bonsaï)"
+        "type": "taille légère fin d'hiver / début de printemps; pincement des pousses; taille de formation (projet bonsaï)"
       },
       "projet": {
         "nom": "Bonsaï",
@@ -434,8 +442,9 @@
         "humains": "leger",
         "note": "Latex irritant"
       },
-      "source": "connaissances générales - à vérifier",
-      "verifie": false
+      "source": "recoupée (sites botaniques/jardineries) - corrections du 27/10/2026",
+      "verifie": false,
+      "statut": "recoupee"
     },
     {
       "id": "phalaenopsis",
@@ -455,10 +464,10 @@
       "rusticite": "interieur",
       "arrosage": {
         "intervalle_jours": [
+          9,
           7,
-          6,
-          8,
-          12
+          10,
+          14
         ],
         "methode": "trempage",
         "type": "laisser_secher_substrat",
@@ -494,8 +503,9 @@
         "chiens": "non",
         "humains": "non"
       },
-      "source": "connaissances générales - à vérifier",
-      "verifie": false
+      "source": "recoupée (sites botaniques/jardineries) - corrections du 27/10/2026",
+      "verifie": false,
+      "statut": "recoupee"
     }
   ],
   "plantes": [
