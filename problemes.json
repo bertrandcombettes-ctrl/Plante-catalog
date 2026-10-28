@@ -1,0 +1,1539 @@
+{
+  "_note": "Guide des problèmes v2 (recoupé le 28/10/2026). statut: recoupee = confirmé par au moins une source d'université ou de société savante; partielle = sources limitées ou grand public; a_recouper = rédigé de mémoire. Les produits sont à utiliser selon l'étiquette.",
+  "symptomes": [
+    {
+      "id": "f_jaunes_bas",
+      "zone": "Feuilles",
+      "label": "Feuilles du bas qui jaunissent"
+    },
+    {
+      "id": "f_jaunes_jeunes",
+      "zone": "Feuilles",
+      "label": "Jeunes feuilles jaunes, nervures restées vertes"
+    },
+    {
+      "id": "f_jaunes_general",
+      "zone": "Feuilles",
+      "label": "Jaunissement général de la plante"
+    },
+    {
+      "id": "f_jaunes_entre_nervures",
+      "zone": "Feuilles",
+      "label": "Vieilles feuilles jaunes entre les nervures"
+    },
+    {
+      "id": "f_bords_brules",
+      "zone": "Feuilles",
+      "label": "Bords des feuilles jaunes ou brûlés"
+    },
+    {
+      "id": "f_pointes_brunes",
+      "zone": "Feuilles",
+      "label": "Pointes ou bords secs et bruns"
+    },
+    {
+      "id": "f_taches_brunes",
+      "zone": "Feuilles",
+      "label": "Taches brunes ou beiges"
+    },
+    {
+      "id": "f_taches_noires",
+      "zone": "Feuilles",
+      "label": "Taches noires ou brun foncé, parfois cerclées de jaune"
+    },
+    {
+      "id": "f_taches_jaunes_dessus",
+      "zone": "Feuilles",
+      "label": "Taches jaunes dessus, duvet grisâtre dessous"
+    },
+    {
+      "id": "f_pustules_orange",
+      "zone": "Feuilles",
+      "label": "Pustules orange ou rouille en dessous"
+    },
+    {
+      "id": "f_poudre_blanche",
+      "zone": "Feuilles",
+      "label": "Poudre blanche comme de la farine"
+    },
+    {
+      "id": "f_collant",
+      "zone": "Feuilles",
+      "label": "Feuilles collantes (miellat)"
+    },
+    {
+      "id": "f_depot_noir",
+      "zone": "Feuilles",
+      "label": "Dépôt noir de suie sur les feuilles"
+    },
+    {
+      "id": "f_toiles",
+      "zone": "Feuilles",
+      "label": "Fines toiles, points clairs sur les feuilles"
+    },
+    {
+      "id": "f_trouees",
+      "zone": "Feuilles",
+      "label": "Feuilles trouées ou mangées"
+    },
+    {
+      "id": "f_encoches",
+      "zone": "Feuilles",
+      "label": "Petites encoches régulières sur les bords"
+    },
+    {
+      "id": "f_tombent",
+      "zone": "Feuilles",
+      "label": "Chute de feuilles"
+    },
+    {
+      "id": "f_fanees",
+      "zone": "Feuilles",
+      "label": "Feuilles molles, flétries"
+    },
+    {
+      "id": "f_roulees",
+      "zone": "Feuilles",
+      "label": "Feuilles enroulées ou déformées"
+    },
+    {
+      "id": "f_decolorees",
+      "zone": "Feuilles",
+      "label": "Feuilles pâles, décolorées, argentées"
+    },
+    {
+      "id": "f_brulures",
+      "zone": "Feuilles",
+      "label": "Plages blanchies ou brûlées côté soleil"
+    },
+    {
+      "id": "f_petites",
+      "zone": "Feuilles",
+      "label": "Nouvelles feuilles petites"
+    },
+    {
+      "id": "t_base_molle",
+      "zone": "Tige et base",
+      "label": "Base de la tige noire ou molle"
+    },
+    {
+      "id": "t_moisissure_grise",
+      "zone": "Tige et base",
+      "label": "Moisissure grise duveteuse"
+    },
+    {
+      "id": "t_cotonneux",
+      "zone": "Tige et base",
+      "label": "Amas blancs cotonneux"
+    },
+    {
+      "id": "t_boucliers",
+      "zone": "Tige et base",
+      "label": "Petites bosses brunes collées sur tiges ou feuilles"
+    },
+    {
+      "id": "t_etiolee",
+      "zone": "Tige et base",
+      "label": "Tiges longues et grêles, qui s'étirent vers la lumière"
+    },
+    {
+      "id": "t_coeur_noir",
+      "zone": "Tige et base",
+      "label": "Cœur (centre) de la plante noir ou mou"
+    },
+    {
+      "id": "r_pourries",
+      "zone": "Racines et terreau",
+      "label": "Racines brunes, molles, odeur de moisi"
+    },
+    {
+      "id": "r_serrees",
+      "zone": "Racines et terreau",
+      "label": "Racines qui sortent du pot, motte compacte"
+    },
+    {
+      "id": "s_croute_blanche",
+      "zone": "Racines et terreau",
+      "label": "Croûte blanche sur le terreau ou le pot"
+    },
+    {
+      "id": "s_moisi",
+      "zone": "Racines et terreau",
+      "label": "Moisissure blanche sur le terreau"
+    },
+    {
+      "id": "s_moucherons",
+      "zone": "Racines et terreau",
+      "label": "Petits moucherons noirs autour du terreau"
+    },
+    {
+      "id": "s_detrempe",
+      "zone": "Racines et terreau",
+      "label": "Terreau toujours détrempé"
+    },
+    {
+      "id": "s_sec",
+      "zone": "Racines et terreau",
+      "label": "Terreau très sec, se décolle du pot"
+    },
+    {
+      "id": "i_pucerons",
+      "zone": "Insectes visibles",
+      "label": "Petits insectes verts ou noirs groupés sur les pousses"
+    },
+    {
+      "id": "i_blancs",
+      "zone": "Insectes visibles",
+      "label": "Petites mouches blanches qui s'envolent quand on touche"
+    },
+    {
+      "id": "i_limaces",
+      "zone": "Insectes visibles",
+      "label": "Traces de bave, limaces ou escargots"
+    },
+    {
+      "id": "i_chenilles",
+      "zone": "Insectes visibles",
+      "label": "Chenilles ou larves visibles"
+    },
+    {
+      "id": "i_fins",
+      "zone": "Insectes visibles",
+      "label": "Minuscules insectes fins, traces argentées"
+    },
+    {
+      "id": "fl_aucune",
+      "zone": "Fleurs et croissance",
+      "label": "Pas de floraison"
+    },
+    {
+      "id": "fl_boutons_tombent",
+      "zone": "Fleurs et croissance",
+      "label": "Boutons floraux qui tombent"
+    },
+    {
+      "id": "c_stoppee",
+      "zone": "Fleurs et croissance",
+      "label": "Croissance arrêtée"
+    }
+  ],
+  "problemes": [
+    {
+      "id": "arrosage_exces",
+      "nom": "Arrosage excessif",
+      "type": "culture",
+      "symptomes": [
+        "f_jaunes_bas",
+        "f_fanees",
+        "f_tombent",
+        "s_detrempe",
+        "s_moisi",
+        "s_moucherons",
+        "t_base_molle"
+      ],
+      "causes": [
+        "Arrosage trop fréquent",
+        "Terreau qui ne draine pas",
+        "Pot sans trou ou soucoupe pleine d'eau"
+      ],
+      "traitement": [
+        "Arrêter d'arroser jusqu'à ce que le terreau soit sec sur plusieurs centimètres",
+        "Vider la soucoupe",
+        "Si le terreau reste détrempé: dépoter, vérifier les racines, rempoter en terreau drainant"
+      ],
+      "prevention": [
+        "Vérifier le terreau avant chaque arrosage",
+        "Pot avec trou de drainage",
+        "Espacer les arrosages en hiver"
+      ],
+      "gravite": "moyenne",
+      "plantes": [],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "Washington State University - moucherons (humidité du terreau)",
+          "url": "https://pestsense.cahnrs.wsu.edu/fact-sheet/fungus-gnats-nuisance/",
+          "type": "extension"
+        },
+        {
+          "titre": "Gardeners' World - pourriture des racines",
+          "url": "https://www.gardenersworld.com/house-plants/root-rot-house-plants",
+          "type": "grand public"
+        }
+      ],
+      "verification": "Recoupé seulement pour les effets (moucherons, pourriture); la liste des symptômes reste à confirmer."
+    },
+    {
+      "id": "manque_eau",
+      "nom": "Manque d'eau",
+      "type": "culture",
+      "symptomes": [
+        "f_fanees",
+        "f_pointes_brunes",
+        "f_tombent",
+        "s_sec",
+        "f_roulees"
+      ],
+      "causes": [
+        "Arrosages trop espacés",
+        "Motte desséchée qui n'absorbe plus l'eau",
+        "Forte chaleur ou vent sur le balcon"
+      ],
+      "traitement": [
+        "Tremper le pot dans l'eau 15 à 30 minutes, puis laisser égoutter",
+        "Reprendre un rythme régulier"
+      ],
+      "prevention": [
+        "Contrôler plus souvent par temps chaud ou venteux",
+        "Pailler le terreau des pots en extérieur"
+      ],
+      "gravite": "moyenne",
+      "plantes": [],
+      "source": "connaissances horticoles générales - à recouper",
+      "statut": "a_recouper",
+      "sources": [],
+      "verification": "Pas encore recoupé avec des sources."
+    },
+    {
+      "id": "manque_lumiere",
+      "nom": "Manque de lumière",
+      "type": "culture",
+      "symptomes": [
+        "t_etiolee",
+        "f_petites",
+        "f_jaunes_bas",
+        "f_decolorees",
+        "fl_aucune",
+        "c_stoppee"
+      ],
+      "causes": [
+        "Emplacement trop sombre",
+        "Plante trop éloignée de la fenêtre",
+        "Faible luminosité en hiver"
+      ],
+      "traitement": [
+        "Rapprocher la plante d'une fenêtre lumineuse",
+        "Raccourcir les tiges étiolées au printemps",
+        "En hiver, envisager une lampe de culture"
+      ],
+      "prevention": [
+        "Adapter l'emplacement aux besoins de l'espèce",
+        "Tourner le pot régulièrement"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "connaissances horticoles générales - à recouper",
+      "statut": "a_recouper",
+      "sources": [],
+      "verification": "Pas encore recoupé avec des sources."
+    },
+    {
+      "id": "coup_de_soleil",
+      "nom": "Coup de soleil (brûlure)",
+      "type": "culture",
+      "symptomes": [
+        "f_brulures",
+        "f_taches_brunes",
+        "f_pointes_brunes"
+      ],
+      "causes": [
+        "Exposition brutale au plein soleil",
+        "Plante d'intérieur sortie sans acclimatation",
+        "Gouttes d'eau au soleil"
+      ],
+      "traitement": [
+        "Mettre à l'ombre ou derrière un voilage",
+        "Couper les feuilles trop abîmées (elles ne reverdissent pas)"
+      ],
+      "prevention": [
+        "Acclimater progressivement sur 1 à 2 semaines",
+        "Arroser le matin ou le soir"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "connaissances horticoles générales - à recouper",
+      "statut": "a_recouper",
+      "sources": [],
+      "verification": "Pas encore recoupé avec des sources."
+    },
+    {
+      "id": "air_sec",
+      "nom": "Air trop sec",
+      "type": "culture",
+      "symptomes": [
+        "f_pointes_brunes",
+        "f_bords_brules",
+        "f_toiles",
+        "fl_boutons_tombent"
+      ],
+      "causes": [
+        "Air sec en hiver (chauffage)",
+        "Espèce originaire de climats humides (fougère, spatiphyllum)",
+        "Chlore ou fluor dans l'eau, sels de l'engrais"
+      ],
+      "traitement": [
+        "Éloigner du radiateur",
+        "Grouper les plantes ou poser le pot sur un lit de billes d'argile humide",
+        "Couper les pointes sèches"
+      ],
+      "prevention": [
+        "Ne pas placer près d'une source de chaleur",
+        "Surveiller les araignées rouges en air sec"
+      ],
+      "gravite": "faible",
+      "plantes": [
+        "nephrolepis_exaltata",
+        "spathiphyllum"
+      ],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "Iowa State University Extension - pointes brunes des plantes d'intérieur",
+          "url": "https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges",
+          "type": "extension"
+        }
+      ],
+      "verification": "Aucune source ne chiffre l'humidité idéale ni ne confirme l'efficacité des billes d'argile."
+    },
+    {
+      "id": "froid_gel",
+      "nom": "Froid, courant d'air ou gel",
+      "type": "culture",
+      "symptomes": [
+        "f_tombent",
+        "f_fanees",
+        "f_taches_noires",
+        "f_decolorees"
+      ],
+      "causes": [
+        "Température sous le minimum de l'espèce",
+        "Courant d'air froid",
+        "Gel sur le balcon"
+      ],
+      "traitement": [
+        "Mettre à l'abri, loin des courants d'air",
+        "Attendre: couper seulement ce qui est mort après la reprise",
+        "Ne pas arroser abondamment une plante transie"
+      ],
+      "prevention": [
+        "Rentrer ou protéger les plantes fragiles avant les premières gelées",
+        "Surveiller les alertes gel de l'appli"
+      ],
+      "gravite": "moyenne",
+      "plantes": [],
+      "source": "connaissances horticoles générales - à recouper",
+      "statut": "a_recouper",
+      "sources": [],
+      "verification": "Pas encore recoupé avec des sources."
+    },
+    {
+      "id": "eau_calcaire",
+      "nom": "Eau calcaire ou sels accumulés",
+      "type": "culture",
+      "symptomes": [
+        "s_croute_blanche",
+        "f_pointes_brunes",
+        "f_bords_brules",
+        "f_jaunes_jeunes"
+      ],
+      "causes": [
+        "Sels qui s'accumulent dans le terreau (engrais en excès)",
+        "Chlore ou fluor dans l'eau, surtout pour les espèces sensibles",
+        "Terreau jamais renouvelé"
+      ],
+      "traitement": [
+        "Réduire l'engrais",
+        "Rincer le terreau en arrosant abondamment (le pot doit bien s'égoutter)",
+        "Changer de source d'eau si on soupçonne le chlore ou le fluor (eau de pluie ou eau reposée)"
+      ],
+      "prevention": [
+        "Utiliser de l'eau de pluie ou laisser reposer l'eau",
+        "Respecter les doses d'engrais"
+      ],
+      "gravite": "faible",
+      "plantes": [
+        "spathiphyllum",
+        "phalaenopsis"
+      ],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "Iowa State University Extension - pointes brunes des plantes d'intérieur",
+          "url": "https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges",
+          "type": "extension"
+        }
+      ],
+      "verification": "Le calcaire lui-même n'est pas mentionné par cette source; le protocole de rinçage reste à vérifier."
+    },
+    {
+      "id": "stress_demenagement",
+      "nom": "Stress après changement de place ou rempotage",
+      "type": "culture",
+      "symptomes": [
+        "f_tombent",
+        "f_fanees",
+        "c_stoppee"
+      ],
+      "causes": [
+        "Changement de lumière ou de température",
+        "Rempotage récent",
+        "Retour d'extérieur vers l'intérieur"
+      ],
+      "traitement": [
+        "Ne rien changer d'autre: laisser la plante se stabiliser 2 à 4 semaines",
+        "Arroser avec modération"
+      ],
+      "prevention": [
+        "Changements progressifs",
+        "Éviter de rempoter hors saison"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "connaissances horticoles générales - à recouper",
+      "statut": "a_recouper",
+      "sources": [],
+      "verification": "Pas encore recoupé avec des sources."
+    },
+    {
+      "id": "pot_trop_petit",
+      "nom": "Pot trop petit, racines à l'étroit",
+      "type": "culture",
+      "symptomes": [
+        "r_serrees",
+        "c_stoppee",
+        "f_fanees",
+        "s_sec",
+        "f_jaunes_general"
+      ],
+      "causes": [
+        "Plante qui a grandi",
+        "Terreau épuisé"
+      ],
+      "traitement": [
+        "Rempoter dans un pot un peu plus grand (2 à 4 cm de diamètre de plus)",
+        "Démêler légèrement les racines"
+      ],
+      "prevention": [
+        "Rempoter à la fréquence indiquée sur la fiche",
+        "Au printemps de préférence"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "connaissances horticoles générales - à recouper",
+      "statut": "a_recouper",
+      "sources": [],
+      "verification": "Pas encore recoupé avec des sources."
+    },
+    {
+      "id": "pas_de_fleurs",
+      "nom": "Floraison absente",
+      "type": "culture",
+      "symptomes": [
+        "fl_aucune",
+        "fl_boutons_tombent"
+      ],
+      "causes": [
+        "Trop d'ombre",
+        "Manque de potasse dans le sol",
+        "Taille sévère ou faite en début d'été",
+        "Orchidée: pas de baisse de température la nuit (non confirmé)"
+      ],
+      "traitement": [
+        "Glycine: plein soleil; sulfate de potasse au printemps (RHS: 20 g/m² sur sol pauvre)",
+        "Glycine: éviter la taille sévère ou en début d'été; une taille régulière et bien placée augmente la floraison",
+        "Orchidée: vérifier la lumière et une période plus fraîche en automne"
+      ],
+      "prevention": [
+        "Respecter le calendrier de taille et d'engrais de la fiche"
+      ],
+      "gravite": "faible",
+      "plantes": [
+        "wisteria_sinensis",
+        "phalaenopsis"
+      ],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "RHS - problèmes de glycine, questions fréquentes",
+          "url": "https://www.rhs.org.uk/plants/wisteria/frequently-asked-questions",
+          "type": "extension"
+        }
+      ],
+      "verification": "Non confirmé ici: rythme de deux tailles par an et rôle de l'azote (autres sources seulement)."
+    },
+    {
+      "id": "carence_azote",
+      "nom": "Carence en azote",
+      "type": "carence",
+      "symptomes": [
+        "f_jaunes_bas",
+        "f_jaunes_general",
+        "c_stoppee",
+        "f_petites"
+      ],
+      "causes": [
+        "Terreau épuisé",
+        "Aucun engrais depuis longtemps"
+      ],
+      "traitement": [
+        "Apporter un engrais équilibré à dose modérée",
+        "Rempoter en terreau frais si le terreau est ancien"
+      ],
+      "prevention": [
+        "Engrais régulier pendant la période de croissance"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "Texas A&M - diagnostic des carences (serre)",
+          "url": "https://aggie-horticulture.tamu.edu/ornamental/greenhouse-management/diagnosing-nutritional-deficiencies",
+          "type": "extension"
+        },
+        {
+          "titre": "UC ANR - carences nutritives (PDF)",
+          "url": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/342353.pdf",
+          "type": "extension"
+        }
+      ],
+      "verification": "Les symptômes de ces carences se ressemblent; les sources conseillent une analyse pour confirmer. Dosages d'engrais non vérifiés."
+    },
+    {
+      "id": "chlorose_fer",
+      "nom": "Chlorose (carence en fer)",
+      "type": "carence",
+      "symptomes": [
+        "f_jaunes_jeunes",
+        "f_decolorees",
+        "c_stoppee"
+      ],
+      "causes": [
+        "Le fer est présent mais non absorbable: pH trop élevé (sol alcalin)",
+        "Sol détrempé ou mal drainé",
+        "Racines abîmées"
+      ],
+      "traitement": [
+        "Vérifier le drainage et le pH du terreau",
+        "Fer chélaté dans le terreau ou en pulvérisation sur les feuilles (action rapide)",
+        "Distinguer des carences en manganèse ou zinc, qui commencent sur les feuilles plus âgées"
+      ],
+      "prevention": [
+        "Éviter l'eau calcaire",
+        "Terreau adapté (acidifié si la plante l'aime)"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "University of Illinois Extension - chlorose",
+          "url": "https://extension.illinois.edu/plant-problems/chlorosis",
+          "type": "extension"
+        },
+        {
+          "titre": "Purdue Extension - chlorose ferrique (PDF)",
+          "url": "https://www.extension.purdue.edu/extmedia/BP/BP-27-W.pdf",
+          "type": "extension"
+        },
+        {
+          "titre": "UC ANR - chlorose ferrique",
+          "url": "https://ucanr.edu/media/250596",
+          "type": "extension"
+        }
+      ],
+      "verification": ""
+    },
+    {
+      "id": "carence_magnesium",
+      "nom": "Carence en magnésium",
+      "type": "carence",
+      "symptomes": [
+        "f_jaunes_entre_nervures",
+        "f_jaunes_bas"
+      ],
+      "causes": [
+        "Terreau pauvre",
+        "Excès de potasse"
+      ],
+      "traitement": [
+        "Apporter du magnésium (sels d'Epsom très dilués ou engrais complet)"
+      ],
+      "prevention": [
+        "Engrais complet régulier"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "Texas A&M - diagnostic des carences (serre)",
+          "url": "https://aggie-horticulture.tamu.edu/ornamental/greenhouse-management/diagnosing-nutritional-deficiencies",
+          "type": "extension"
+        },
+        {
+          "titre": "UC ANR - carences nutritives (PDF)",
+          "url": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/342353.pdf",
+          "type": "extension"
+        }
+      ],
+      "verification": "Les symptômes de ces carences se ressemblent; les sources conseillent une analyse pour confirmer. Dosages d'engrais non vérifiés."
+    },
+    {
+      "id": "carence_potassium",
+      "nom": "Carence en potassium",
+      "type": "carence",
+      "symptomes": [
+        "f_bords_brules",
+        "f_jaunes_bas",
+        "fl_boutons_tombent"
+      ],
+      "causes": [
+        "Terreau épuisé",
+        "Engrais trop riche en azote"
+      ],
+      "traitement": [
+        "Apporter un engrais riche en potasse"
+      ],
+      "prevention": [
+        "Engrais équilibré en période de croissance"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "Texas A&M - diagnostic des carences (serre)",
+          "url": "https://aggie-horticulture.tamu.edu/ornamental/greenhouse-management/diagnosing-nutritional-deficiencies",
+          "type": "extension"
+        },
+        {
+          "titre": "UC ANR - carences nutritives (PDF)",
+          "url": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/342353.pdf",
+          "type": "extension"
+        }
+      ],
+      "verification": "Les symptômes de ces carences se ressemblent; les sources conseillent une analyse pour confirmer. Dosages d'engrais non vérifiés."
+    },
+    {
+      "id": "pucerons",
+      "nom": "Pucerons",
+      "type": "parasite",
+      "symptomes": [
+        "i_pucerons",
+        "f_collant",
+        "f_roulees",
+        "f_depot_noir",
+        "f_petites"
+      ],
+      "causes": [
+        "Pousses tendres au printemps",
+        "Excès d'azote"
+      ],
+      "traitement": [
+        "Rincer la plante avec un jet d'eau ferme (douche ou évier), dessous des feuilles compris",
+        "Puis savon insecticide, à répéter chaque semaine pendant 2 à 3 semaines même si on n'en voit plus (ils se multiplient très vite)",
+        "Pulvériser tôt le matin ou en fin de journée, pas en plein soleil",
+        "Éviter le liquide vaisselle: ses additifs peuvent abîmer la plante"
+      ],
+      "prevention": [
+        "Surveiller les jeunes pousses",
+        "Attirer coccinelles et auxiliaires sur le balcon"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "New York Botanical Garden - parasites des plantes d'intérieur",
+          "url": "https://libanswers.nybg.org/faq/222551",
+          "type": "jardin botanique"
+        },
+        {
+          "titre": "University of Kentucky Entomology - pucerons (PDF)",
+          "url": "https://entomology.ca.uky.edu/files/ef406.pdf",
+          "type": "extension"
+        },
+        {
+          "titre": "Laidback Gardener - pucerons sur plantes d'intérieur (blog)",
+          "url": "https://laidbackgardener.blog/2024/01/19/answers-to-your-questions-aphids-on-houseplants/",
+          "type": "blog"
+        }
+      ],
+      "verification": "Le « savon noir » cité avant est remplacé par « savon insecticide ». Une des sources est un blog."
+    },
+    {
+      "id": "cochenilles_farineuses",
+      "nom": "Cochenilles farineuses",
+      "type": "parasite",
+      "symptomes": [
+        "t_cotonneux",
+        "f_collant",
+        "f_depot_noir",
+        "f_jaunes_general",
+        "c_stoppee"
+      ],
+      "causes": [
+        "Plante contaminée par une autre",
+        "Air sec et chaud"
+      ],
+      "traitement": [
+        "Isoler la plante",
+        "Peu infestée: ôter les cochenilles et les amas d'œufs à la main, ou les tamponner avec un coton imbibé d'alcool",
+        "Très infestée: pulvériser 10 % d'alcool à friction et 90 % d'eau",
+        "Savon insecticide ou huile de neem sur tout le feuillage (dessous compris), tous les 7 à 10 jours, jusqu'à ne plus en voir pendant 3 à 4 semaines",
+        "Tester d'abord sur une petite zone: certaines plantes sont sensibles",
+        "Plante précieuse très infestée: le traitement est difficile; jeter la plante peut protéger les autres"
+      ],
+      "prevention": [
+        "Inspecter régulièrement dessous des feuilles et aisselles",
+        "Quarantaine pour toute nouvelle plante"
+      ],
+      "gravite": "moyenne",
+      "plantes": [],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "Iowa State University Extension - mealybugs sur plantes d'intérieur",
+          "url": "https://yardandgarden.extension.iastate.edu/faq/how-do-i-control-mealybugs-houseplant",
+          "type": "extension"
+        },
+        {
+          "titre": "Colorado State University - mealybugs sur plantes d'intérieur",
+          "url": "https://planttalk.colostate.edu/topics/insects-diseases/1466-mealy-bugs-houseplants",
+          "type": "extension"
+        },
+        {
+          "titre": "Gardenia (guide commercial, pour le rythme 7-10 jours)",
+          "url": "https://www.gardenia.net/guide/mealybugs",
+          "type": "commercial"
+        }
+      ],
+      "verification": "Le savon noir (cité avant) n'est pas confirmé par ces sources: on parle de savon insecticide."
+    },
+    {
+      "id": "cochenilles_boucliers",
+      "nom": "Cochenilles à bouclier",
+      "type": "parasite",
+      "symptomes": [
+        "t_boucliers",
+        "f_collant",
+        "f_depot_noir",
+        "f_jaunes_general"
+      ],
+      "causes": [
+        "Plante contaminée",
+        "Air sec"
+      ],
+      "traitement": [
+        "Gratter ou tamponner avec un coton imbibé d'alcool isopropylique",
+        "Huile horticole en pulvérisation: la plus recommandée contre les cochenilles à bouclier",
+        "Répéter 2 à 3 fois à 10 à 16 jours d'intervalle (l'alcool ne tue pas les œufs sous le bouclier)",
+        "Tester d'abord: l'huile peut brûler certaines feuilles",
+        "Orchidées à feuilles souples: l'alcool isopropylique peut les abîmer"
+      ],
+      "prevention": [
+        "Inspecter les tiges et nervures",
+        "Quarantaine des nouvelles plantes"
+      ],
+      "gravite": "moyenne",
+      "plantes": [
+        "ficus_benjamina",
+        "wisteria_sinensis"
+      ],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "Cornell - cochenilles sur plantes d'intérieur (PDF)",
+          "url": "https://ecommons.cornell.edu/bitstream/handle/1813/14350/Scales%20on%20Houseplants.pdf?sequence=2",
+          "type": "extension"
+        },
+        {
+          "titre": "New Mexico State University - cochenilles",
+          "url": "https://swyg.nmsu.edu/2003/081603.html",
+          "type": "extension"
+        },
+        {
+          "titre": "American Orchid Society - cochenilles",
+          "url": "https://www.aos.org/orchid-care/orchid-pests-and-diseases/scale",
+          "type": "extension"
+        }
+      ],
+      "verification": "Sur ficus et glycine en pot, les sources sont générales (plantes d'intérieur)."
+    },
+    {
+      "id": "araignees_rouges",
+      "nom": "Araignées rouges (tétranyques)",
+      "type": "parasite",
+      "symptomes": [
+        "f_toiles",
+        "f_decolorees",
+        "f_fanees",
+        "f_jaunes_general",
+        "f_tombent"
+      ],
+      "causes": [
+        "Air intérieur sec, qui favorise les acariens",
+        "Plante affaiblie",
+        "Plante près d'un radiateur"
+      ],
+      "traitement": [
+        "Rincer toute la plante avec un jet d'eau fort, dessous des feuilles compris",
+        "Savon insecticide une à deux fois par semaine pendant 2 à 3 semaines, et continuer si ça revient",
+        "Couper d'abord les parties très atteintes",
+        "Test: secouer une tige au-dessus d'une feuille de papier blanc pour voir les acariens"
+      ],
+      "prevention": [
+        "Rincer régulièrement les plantes d'intérieur",
+        "Garder la plante bien arrosée et nourrie",
+        "Éviter la proximité des radiateurs"
+      ],
+      "gravite": "moyenne",
+      "plantes": [],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "University of Maryland Extension - acariens sur plantes d'intérieur",
+          "url": "https://extension.umd.edu/resource/spider-mites-indoor-plants",
+          "type": "extension"
+        },
+        {
+          "titre": "Iowa State University Extension - acariens",
+          "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/spider-mites",
+          "type": "extension"
+        },
+        {
+          "titre": "New Mexico State University - acariens sur plantes d'intérieur",
+          "url": "https://swyg.nmsu.edu/2008/010508.html",
+          "type": "extension"
+        }
+      ],
+      "verification": "Humidifier l'air n'est pas confirmé comme traitement par ces sources (seulement l'air sec comme facteur favorisant)."
+    },
+    {
+      "id": "aleurodes",
+      "nom": "Aleurodes (mouches blanches)",
+      "type": "parasite",
+      "symptomes": [
+        "i_blancs",
+        "f_collant",
+        "f_depot_noir",
+        "f_jaunes_general"
+      ],
+      "causes": [
+        "Contamination par d'autres plantes",
+        "Chaleur et air confiné"
+      ],
+      "traitement": [
+        "Huile horticole ou huile de neem contre les larves (meilleur moyen selon Colorado State)",
+        "Savon insecticide: ne tue que par contact, bien couvrir le dessous des feuilles",
+        "Laver les feuilles (dessous) avec un chiffon humide",
+        "Répéter chaque semaine",
+        "Tester d'abord sur une petite zone",
+        "Pièges jaunes: surtout pour surveiller les adultes, pas pour éliminer",
+        "Plante très infestée: la jeter est une option pour limiter la contamination"
+      ],
+      "prevention": [
+        "Pièges jaunes préventifs",
+        "Éviter le confinement"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "Colorado State University - aleurodes (PDF)",
+          "url": "https://www.extension.colostate.edu/docs/pubs/insect/05587.pdf",
+          "type": "extension"
+        },
+        {
+          "titre": "Iowa State University Extension - aleurodes",
+          "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/whiteflies",
+          "type": "extension"
+        },
+        {
+          "titre": "University of Arizona - aleurodes (PDF)",
+          "url": "https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/Whiteflies.pdf",
+          "type": "extension"
+        }
+      ],
+      "verification": "Contrôle difficile selon les sources: combiner plusieurs méthodes."
+    },
+    {
+      "id": "thrips",
+      "nom": "Thrips",
+      "type": "parasite",
+      "symptomes": [
+        "i_fins",
+        "f_decolorees",
+        "f_roulees",
+        "fl_boutons_tombent"
+      ],
+      "causes": [
+        "Air sec et chaud",
+        "Contamination venue de l'extérieur"
+      ],
+      "traitement": [
+        "Pièges collants bleus pour les adultes (jaune ou bleu pâle selon la source)",
+        "Savon insecticide ou huile en pulvérisation, répété",
+        "Couper les fleurs abîmées"
+      ],
+      "prevention": [
+        "Inspecter les fleurs",
+        "Humidité suffisante"
+      ],
+      "gravite": "moyenne",
+      "plantes": [
+        "phalaenopsis"
+      ],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "University of Arizona - insectes des plantes d'intérieur (PDF)",
+          "url": "https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/HouseplantInsect-Reference.pdf",
+          "type": "extension"
+        },
+        {
+          "titre": "Douglas County Master Gardeners - plantes d'intérieur (PDF)",
+          "url": "https://www.douglascountymg.org/mg_articles/HouseplantCare.pdf",
+          "type": "extension"
+        }
+      ],
+      "verification": "Sources succinctes; à compléter avec une fiche dédiée aux thrips sur orchidée."
+    },
+    {
+      "id": "moucherons_terreau",
+      "nom": "Moucherons du terreau (sciarides)",
+      "type": "parasite",
+      "symptomes": [
+        "s_moucherons",
+        "s_detrempe",
+        "s_moisi"
+      ],
+      "causes": [
+        "Terreau constamment humide",
+        "Terreau riche en matière organique"
+      ],
+      "traitement": [
+        "Arrêter d'arroser tant que les 2-3 premiers centimètres de terreau ne sont pas secs",
+        "Arroser par le dessous (soucoupe) pour garder la surface sèche",
+        "Pièges jaunes collants, de préférence verticaux, à renouveler tous les quelques jours (ils ne prennent que les adultes)",
+        "Bti (bactérie) en arrosage du terreau pour tuer les larves",
+        "Les insecticides ne sont pas recommandés"
+      ],
+      "prevention": [
+        "Ne pas arroser en excès",
+        "Vider les soucoupes"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "Washington State University - moucherons du terreau",
+          "url": "https://pestsense.cahnrs.wsu.edu/fact-sheet/fungus-gnats-nuisance/",
+          "type": "extension"
+        },
+        {
+          "titre": "University of Wisconsin Extension - moucherons sur plantes d'intérieur",
+          "url": "https://hort.extension.wisc.edu/articles/fungus-gnats-on-houseplants",
+          "type": "extension"
+        },
+        {
+          "titre": "Oregon State University Extension - moucherons",
+          "url": "https://extension.oregonstate.edu/ask-extension/featured/i-have-fungus-gnats-everywhere-can-you-help",
+          "type": "extension"
+        }
+      ],
+      "verification": "Retiré: couche de sable ou gravier (non confirmée par ces sources)."
+    },
+    {
+      "id": "limaces",
+      "nom": "Limaces et escargots",
+      "type": "parasite",
+      "symptomes": [
+        "i_limaces",
+        "f_trouees"
+      ],
+      "causes": [
+        "Humidité et temps doux",
+        "Balcon ou jardin ombragé"
+      ],
+      "traitement": [
+        "Les chercher la nuit et les ramasser dans de l'eau savonneuse (deux fois par semaine au printemps et à l'automne)",
+        "Supprimer les cachettes (dessous des pots, pierres)",
+        "Piège à bière ou levure enterré, ou ruban de cuivre autour des pots",
+        "Phosphate de fer en dernier recours: suivre l'étiquette (risques pour les animaux et les auxiliaires)"
+      ],
+      "prevention": [
+        "Réduire l'excès d'humidité",
+        "Dégager les cachettes autour des pots"
+      ],
+      "gravite": "faible",
+      "plantes": [
+        "eutrema_japonicum",
+        "allium_schoenoprasum"
+      ],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "Oregon State University Extension - limaces et escargots (PDF)",
+          "url": "https://extension.oregonstate.edu/sites/default/files/documents/12281/managingslugssnails.pdf",
+          "type": "extension"
+        },
+        {
+          "titre": "UConn - limaces et escargots (PDF)",
+          "url": "https://homegarden.cahnr.uconn.edu/wp-content/uploads/sites/3479/2022/08/Slugs-and-Snails.pdf",
+          "type": "extension"
+        }
+      ],
+      "verification": "Retiré: cendres et coquilles (non confirmées)."
+    },
+    {
+      "id": "chenilles",
+      "nom": "Chenilles et larves",
+      "type": "parasite",
+      "symptomes": [
+        "i_chenilles",
+        "f_trouees"
+      ],
+      "causes": [
+        "Papillons ou mites pondant sur la plante"
+      ],
+      "traitement": [
+        "Ramasser à la main",
+        "Traitement au Bacillus thuringiensis (bio) si les dégâts sont importants"
+      ],
+      "prevention": [
+        "Inspecter les feuilles au printemps et en été"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "connaissances horticoles générales - à recouper",
+      "statut": "a_recouper",
+      "sources": [],
+      "verification": "Pas encore recoupé avec des sources."
+    },
+    {
+      "id": "otiorhynque",
+      "nom": "Otiorhynque (charançon de la vigne)",
+      "type": "parasite",
+      "symptomes": [
+        "f_encoches",
+        "c_stoppee",
+        "f_fanees"
+      ],
+      "causes": [
+        "Adultes qui mangent les bords des feuilles la nuit",
+        "Larves blanches qui rongent les racines du pot"
+      ],
+      "traitement": [
+        "Nématodes Heterorhabditis: sol à 12 °C ou plus (action rapide, environ 2 semaines)",
+        "Nématodes Steinernema kraussei: sol froid, dès environ 5 °C, mais effet plus lent (plusieurs semaines)",
+        "Appliquer sur terreau humide, de préférence le soir ou tôt le matin, pas en plein soleil; produit périssable",
+        "Contrôler les racines: larves blanches en C dans le terreau"
+      ],
+      "prevention": [
+        "Surveiller les plantes en pot en extérieur dès le printemps"
+      ],
+      "gravite": "moyenne",
+      "plantes": [
+        "wisteria_sinensis"
+      ],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "AHDB - lutte biologique par nématodes",
+          "url": "https://archive.ahdb.org.uk/knowledge-library/vine-weevil-soft-fruit-biological-control-nematodes",
+          "type": "extension"
+        },
+        {
+          "titre": "Landscape Ontario - lutte biologique à basse température",
+          "url": "https://landscapeontario.com/biocontrol-of-black-vine-weevil-in-cool-temperatures/",
+          "type": "extension"
+        },
+        {
+          "titre": "Agrigem (fournisseur, pour les conditions d'application)",
+          "url": "https://www.agrigem.co.uk/advice-centre/how-to-guides/pest-control/how-to-control-vine-weevils-using-biopesticides/",
+          "type": "commercial"
+        }
+      ],
+      "verification": "Non confirmé: la recherche des adultes à la lampe la nuit, et les symptômes sur la glycine."
+    },
+    {
+      "id": "pourriture_racines",
+      "nom": "Pourriture des racines",
+      "type": "maladie",
+      "symptomes": [
+        "r_pourries",
+        "t_base_molle",
+        "f_jaunes_bas",
+        "f_fanees",
+        "s_detrempe",
+        "f_tombent"
+      ],
+      "causes": [
+        "Arrosage excessif",
+        "Mauvais drainage",
+        "Pot sans trou",
+        "Champignons du sol (Pythium, Phytophthora)"
+      ],
+      "traitement": [
+        "Dépoter et rincer les racines",
+        "Couper tout ce qui est brun, noir ou mou avec un outil propre; garder les racines fermes et claires",
+        "Rempoter dans un terreau neuf et drainant (perlite ou écorce) et un pot propre; ne pas réutiliser l'ancien terreau",
+        "Arroser avec prudence ensuite: laisser le haut du terreau sécher"
+      ],
+      "prevention": [
+        "Respecter l'intervalle d'arrosage de la fiche",
+        "Terreau aéré, trous de drainage"
+      ],
+      "gravite": "elevee",
+      "plantes": [],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "Gardeners' World - pourriture des racines des plantes d'intérieur",
+          "url": "https://www.gardenersworld.com/house-plants/root-rot-house-plants",
+          "type": "grand public"
+        },
+        {
+          "titre": "Old Farmer's Almanac - pourriture des racines",
+          "url": "https://www.almanac.com/pest/root-rot-when-overwatering-damages-plant-roots",
+          "type": "grand public"
+        },
+        {
+          "titre": "Gardening Know How - pourriture des racines",
+          "url": "https://www.gardeningknowhow.com/plant-problems/disease/treating-root-rot-gardening-tips-for-housplants.htm",
+          "type": "grand public"
+        }
+      ],
+      "verification": "Sources grand public seulement (pas de page d'université trouvée). Le peroxyde d'hydrogène cité par certains est un remède maison, non validé."
+    },
+    {
+      "id": "oidium",
+      "nom": "Oïdium",
+      "type": "maladie",
+      "symptomes": [
+        "f_poudre_blanche",
+        "f_roulees",
+        "f_decolorees"
+      ],
+      "causes": [
+        "Air confiné, journées chaudes et nuits fraîches",
+        "Feuillage trop dense"
+      ],
+      "traitement": [
+        "Retirer les feuilles très atteintes",
+        "Améliorer l'aération et éviter un feuillage dense",
+        "Produits possibles: soufre, bicarbonate de potassium, huile horticole ou huile de neem",
+        "Le bicarbonate de soude seul est peu fiable; il fonctionne mieux mélangé à une huile légère"
+      ],
+      "prevention": [
+        "Éviter de mouiller le feuillage le soir",
+        "Bonne circulation d'air"
+      ],
+      "gravite": "moyenne",
+      "plantes": [],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "Colorado State University - oïdium (PDF)",
+          "url": "https://ougfc.montana.edu/extension/flathead/documents/ag/plant-disease/Powdery%20Mildew%20Colorado%20State%20Extension.pdf",
+          "type": "extension"
+        },
+        {
+          "titre": "Washington State University - bicarbonate de soude (PDF)",
+          "url": "https://Puyallup.WSU.edu/wp-content/uploads/sites/403/2015/03/baking-soda.pdf",
+          "type": "extension"
+        },
+        {
+          "titre": "UConn - oïdium des plantes ornementales (PDF)",
+          "url": "https://homegarden.cahnr.uconn.edu/wp-content/uploads/sites/3479/2022/10/Powdery-Mildew-on-Ornamentals.pdf",
+          "type": "extension"
+        }
+      ],
+      "verification": "Remplace l'ancien conseil « bicarbonate dilué » seul."
+    },
+    {
+      "id": "mildiou",
+      "nom": "Mildiou",
+      "type": "maladie",
+      "symptomes": [
+        "f_taches_jaunes_dessus",
+        "f_taches_brunes",
+        "f_tombent"
+      ],
+      "causes": [
+        "Humidité élevée (plus de 85 %) sur le feuillage",
+        "Temps frais et humide (15 à 23 °C)"
+      ],
+      "traitement": [
+        "Retirer rapidement les feuilles atteintes et les jeter",
+        "Améliorer l'aération, espacer les plantes, baisser l'humidité",
+        "Arroser sans mouiller le feuillage (goutte-à-goutte ou au pied)",
+        "Les fongicides sont préventifs et peu efficaces une fois la maladie installée"
+      ],
+      "prevention": [
+        "Arrosage au pied, le matin",
+        "Espacer les plantes"
+      ],
+      "gravite": "moyenne",
+      "plantes": [],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "UC IPM (Université de Californie) - mildiou",
+          "url": "https://ipm.ucanr.edu/PMG/GARDEN/PLANTS/DISEASES/downymildew.html",
+          "type": "extension"
+        },
+        {
+          "titre": "Penn State Extension - mildiou",
+          "url": "https://extension.psu.edu/downy-mildew",
+          "type": "extension"
+        },
+        {
+          "titre": "UConn - mildiou des plantes ornementales (PDF)",
+          "url": "https://ipm.cahnr.uconn.edu/wp-content/uploads/sites/3216/2022/12/2019downymildewonornamentalsfinal2.pdf",
+          "type": "extension"
+        }
+      ],
+      "verification": "Retirée: bouillie bordelaise (non confirmée par ces sources)."
+    },
+    {
+      "id": "botrytis",
+      "nom": "Botrytis (pourriture grise)",
+      "type": "maladie",
+      "symptomes": [
+        "t_moisissure_grise",
+        "f_taches_brunes",
+        "fl_boutons_tombent",
+        "t_base_molle"
+      ],
+      "causes": [
+        "Humidité élevée et air stagnant",
+        "Fleurs ou feuilles fanées laissées sur la plante"
+      ],
+      "traitement": [
+        "Retirer les fleurs, feuilles et tissus abîmés ou mourants (le champignon s'y installe)",
+        "Jeter les parties atteintes",
+        "Espacer les plantes pour qu'elles sèchent après l'arrosage et réduire l'humidité"
+      ],
+      "prevention": [
+        "Enlever régulièrement les fleurs et feuilles fanées",
+        "Bonne ventilation"
+      ],
+      "gravite": "moyenne",
+      "plantes": [],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "University of Illinois Extension - pourriture grise",
+          "url": "https://extension.illinois.edu/plant-problems/gray-mold-botrytis",
+          "type": "extension"
+        },
+        {
+          "titre": "University of Minnesota Extension - pourriture grise",
+          "url": "https://extension.umn.edu/plant-diseases/gray-mold",
+          "type": "extension"
+        },
+        {
+          "titre": "University of Wisconsin - pourriture grise",
+          "url": "https://hort.extension.wisc.edu/articles/gray-mold-botrytis-blight/",
+          "type": "extension"
+        }
+      ],
+      "verification": "Sources surtout pour le jardin; peu de précisions pour l'intérieur."
+    },
+    {
+      "id": "rouille",
+      "nom": "Rouille",
+      "type": "maladie",
+      "symptomes": [
+        "f_pustules_orange",
+        "f_jaunes_general",
+        "f_fanees"
+      ],
+      "causes": [
+        "Humidité sur le feuillage, temps doux et humide"
+      ],
+      "traitement": [
+        "Enlever tout le feuillage atteint et jeter les débris (le champignon passe l'hiver dessus)",
+        "Récolter régulièrement la ciboulette",
+        "Fumure azotée modérée",
+        "Ne pas trop serrer les plantes: l'humidité et le manque d'air favorisent la rouille",
+        "Pas de fongicide autorisé pour les particuliers au Royaume-Uni; vérifier la réglementation locale"
+      ],
+      "prevention": [
+        "Arroser au pied",
+        "Ne pas laisser les feuilles mouillées le soir"
+      ],
+      "gravite": "moyenne",
+      "plantes": [
+        "allium_schoenoprasum"
+      ],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "UC IPM - rouille de l'ail et de l'oignon",
+          "url": "https://ipm.ucanr.edu/agriculture/onion-and-garlic/rust/",
+          "type": "extension"
+        },
+        {
+          "titre": "RHS - rouille du poireau (même maladie que sur l'ail et la ciboulette)",
+          "url": "https://www.rhs.org.uk/Advice/profile?pid=214",
+          "type": "extension"
+        },
+        {
+          "titre": "Promesse de Fleurs - rouille du poireau (guide commercial)",
+          "url": "https://www.promessedefleurs.ie/gardening-tips/advicesheet/how-to-identify-and-get-rid-of-leek-rust/",
+          "type": "commercial"
+        }
+      ],
+      "verification": "Retiré: « la repousse est saine » et « couper à ras » (non confirmés)."
+    },
+    {
+      "id": "taches_foliaires",
+      "nom": "Taches foliaires (champignons ou bactéries)",
+      "type": "maladie",
+      "symptomes": [
+        "f_taches_noires",
+        "f_taches_brunes",
+        "f_tombent"
+      ],
+      "causes": [
+        "Eau sur le feuillage",
+        "Air stagnant",
+        "Plante affaiblie"
+      ],
+      "traitement": [
+        "Retirer et jeter les feuilles tachées",
+        "Éviter de mouiller le feuillage; arroser tôt dans la journée pour qu'il sèche vite",
+        "Baisser l'humidité et améliorer l'aération",
+        "Désinfecter les lames avant de les réutiliser",
+        "Attention: un stress (sécheresse, soleil, froid) peut ressembler à une tache de maladie"
+      ],
+      "prevention": [
+        "Éviter de brumiser les espèces sensibles",
+        "Nettoyer les outils entre deux plantes"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "Washington State University - taches foliaires",
+          "url": "https://hortsense.cahnrs.wsu.edu/fact-sheet/common-diseases-leaf-spots-and-blights/",
+          "type": "extension"
+        },
+        {
+          "titre": "University of Maryland Extension - taches fongiques des plantes d'intérieur",
+          "url": "https://extension.umd.edu/resource/fungal-leaf-spots-indoor-plants",
+          "type": "extension"
+        }
+      ],
+      "verification": ""
+    },
+    {
+      "id": "fumagine",
+      "nom": "Fumagine",
+      "type": "maladie",
+      "symptomes": [
+        "f_depot_noir",
+        "f_collant"
+      ],
+      "causes": [
+        "Miellat laissé par pucerons, cochenilles ou aleurodes"
+      ],
+      "traitement": [
+        "Traiter l'insecte responsable du miellat",
+        "Laver le dépôt noir à la main ou avec une pulvérisation d'eau douce"
+      ],
+      "prevention": [
+        "Traiter les parasites dès les premiers signes"
+      ],
+      "gravite": "faible",
+      "plantes": [],
+      "source": "recoupé le 28/10/2026",
+      "statut": "recoupee",
+      "sources": [
+        {
+          "titre": "New Mexico State University - cochenilles et miellat",
+          "url": "https://swyg.nmsu.edu/2003/081603.html",
+          "type": "extension"
+        }
+      ],
+      "verification": "Retiré: savon noir pour nettoyer (non confirmé)."
+    },
+    {
+      "id": "pourriture_coeur",
+      "nom": "Pourriture du cœur (eau stagnante)",
+      "type": "maladie",
+      "symptomes": [
+        "t_coeur_noir",
+        "f_fanees",
+        "f_tombent"
+      ],
+      "causes": [
+        "Eau stagnante au centre de la rosette (orchidée)",
+        "Arrosage sur le cœur"
+      ],
+      "traitement": [
+        "Incliner la plante pour faire couler l'eau du cœur, et éponger avec un papier absorbant",
+        "Quelques gouttes d'eau oxygénée dans le cœur pour tuer les bactéries (conseil de l'AOS)",
+        "Si des tissus sont déjà pourris: les couper avec un outil propre puis appliquer de la cannelle sur la coupe (AOS, article sur la pourriture noire)"
+      ],
+      "prevention": [
+        "Arroser sans mouiller le cœur",
+        "Bonne aération"
+      ],
+      "gravite": "elevee",
+      "plantes": [
+        "phalaenopsis"
+      ],
+      "source": "recoupé en partie le 28/10/2026",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "American Orchid Society - Phalaenopsis, ce qui peut mal tourner",
+          "url": "https://www.aos.org/orchids/articles/growing-phalaenopsis.-what-can-go-wrong",
+          "type": "société d'orchidées"
+        },
+        {
+          "titre": "American Orchid Society - pourriture noire",
+          "url": "https://www.aos.org/orchid-care/orchid-pests-and-diseases/black-rot",
+          "type": "société d'orchidées"
+        },
+        {
+          "titre": "Gardening Know How - pourriture du cœur des orchidées",
+          "url": "https://gardeningknowhow.com/ornamental/flowers/orchids/treating-crown-rot-in-orchids.htm",
+          "type": "grand public"
+        }
+      ],
+      "verification": "La cannelle n'est pas présentée par l'AOS comme remède de l'eau dans le cœur, mais comme fongicide sur tissu coupé."
+    }
+  ]
+}
