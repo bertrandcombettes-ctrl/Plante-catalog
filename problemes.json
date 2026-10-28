@@ -1,5 +1,7 @@
 {
   "_note": "Guide des problèmes v2 (recoupé le 28/10/2026). statut: recoupee = confirmé par au moins une source d'université ou de société savante; partielle = sources limitées ou grand public; a_recouper = rédigé de mémoire. Les produits sont à utiliser selon l'étiquette.",
+  "schema": 1,
+  "version": 1,
   "symptomes": [
     {
       "id": "f_jaunes_bas",

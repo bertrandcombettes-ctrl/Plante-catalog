@@ -1,5 +1,7 @@
 {
   "_note": "BROUILLON v1.3 - valeurs issues de connaissances horticoles générales, NON vérifiées source par source. Chaque fiche doit être relue avant d'être considérée fiable. Mois = 1..12. Intervalles d'arrosage en jours (printemps, été, automne, hiver). Statut \"recoupee\" = recoupée avec des sources, pas vérifiée à 100 %.",
+  "schema": 1,
+  "version": 1,
   "lieux": [
     {
       "id": "balcon",

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "fichiers": {
+    "catalogue": {
+      "version": 1,
+      "octets": 13304,
+      "sha256": "4f784d331d8d883ef16d0d0fd02a2a5f9176525eea6e1e2aa5465c92cc7382c8"
+    },
+    "problemes": {
+      "version": 1,
+      "octets": 52123,
+      "sha256": "4c175056bc56c1602ed339d15478bd7ccbfefe8bac8b8840bc52d958d034b6d9"
+    }
+  }
+}
