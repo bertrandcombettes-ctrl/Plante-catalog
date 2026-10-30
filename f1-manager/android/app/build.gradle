@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.f1manager'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.f1manager"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+// Le jeu vit dans ../../index.html ; on le copie dans les assets à chaque build.
+tasks.register('copyGame', Copy) {
+    from "$rootDir/../index.html"
+    into "$projectDir/src/main/assets"
+}
+preBuild.dependsOn 'copyGame'
