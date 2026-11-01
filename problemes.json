@@ -1,7 +1,7 @@
 {
   "_note": "Guide des problèmes v2 (recoupé le 28/10/2026). statut: recoupee = confirmé par au moins une source d'université ou de société savante; partielle = sources limitées ou grand public; a_recouper = rédigé de mémoire. Les produits sont à utiliser selon l'étiquette.",
   "schema": 1,
-  "version": 1,
+  "version": 2,
   "symptomes": [
     {
       "id": "f_jaunes_bas",
@@ -283,7 +283,8 @@
         "Forte chaleur ou vent sur le balcon"
       ],
       "traitement": [
-        "Tremper le pot dans l'eau 15 à 30 minutes, puis laisser égoutter",
+        "Sortir délicatement la plante du pot et vérifier l'état des racines avant d'ajuster l'arrosage",
+        "Tremper le pot dans l'eau 15 à 30 minutes, puis laisser égoutter (pratique courante, non confirmée par la RHS)",
         "Reprendre un rythme régulier"
       ],
       "prevention": [
@@ -292,10 +293,16 @@
       ],
       "gravite": "moyenne",
       "plantes": [],
-      "source": "connaissances horticoles générales - à recouper",
-      "statut": "a_recouper",
-      "sources": [],
-      "verification": "Pas encore recoupé avec des sources."
+      "source": "recoupé en partie le 01/11/2026 (RHS)",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "RHS - Leaf damage on houseplants (dégâts foliaires des plantes d'intérieur)",
+          "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants",
+          "type": "société savante"
+        }
+      ],
+      "verification": "La RHS décrit les symptômes (feuilles brunies qui tombent, pointes ou bords bruns) et conseille de vérifier les racines; les pointes brunes peuvent aussi venir d'un excès d'eau ou d'air sec. Le trempage de 15 à 30 minutes n'est confirmé par aucune source lue."
     },
     {
       "id": "manque_lumiere",
@@ -321,14 +328,21 @@
       ],
       "prevention": [
         "Adapter l'emplacement aux besoins de l'espèce",
+        "En hiver, rapprocher les plantes d'une position plus lumineuse (rebord de fenêtre au sud)",
         "Tourner le pot régulièrement"
       ],
       "gravite": "faible",
       "plantes": [],
-      "source": "connaissances horticoles générales - à recouper",
-      "statut": "a_recouper",
-      "sources": [],
-      "verification": "Pas encore recoupé avec des sources."
+      "source": "recoupé en partie le 01/11/2026 (RHS)",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "RHS - Leaf damage on houseplants (dégâts foliaires des plantes d'intérieur)",
+          "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants",
+          "type": "société savante"
+        }
+      ],
+      "verification": "La RHS confirme la perte de panachure par manque de lumière et le conseil de position plus lumineuse en hiver. Étiolement des tiges, lampe de culture et taille des tiges étiolées non confirmés par une source lue."
     },
     {
       "id": "coup_de_soleil",
@@ -345,7 +359,7 @@
         "Gouttes d'eau au soleil"
       ],
       "traitement": [
-        "Mettre à l'ombre ou derrière un voilage",
+        "Déplacer la plante vers un endroit plus ombragé, surtout près d'une fenêtre très lumineuse",
         "Couper les feuilles trop abîmées (elles ne reverdissent pas)"
       ],
       "prevention": [
@@ -354,10 +368,16 @@
       ],
       "gravite": "faible",
       "plantes": [],
-      "source": "connaissances horticoles générales - à recouper",
-      "statut": "a_recouper",
-      "sources": [],
-      "verification": "Pas encore recoupé avec des sources."
+      "source": "recoupé en partie le 01/11/2026 (RHS)",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "RHS - Leaf damage on houseplants (dégâts foliaires des plantes d'intérieur)",
+          "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants",
+          "type": "société savante"
+        }
+      ],
+      "verification": "La RHS confirme qu'un excès de lumière en plein midi peut flétrir, jaunir ou brûler les feuilles. Acclimatation sur 1 à 2 semaines et gouttes d'eau au soleil non confirmées par une source lue."
     },
     {
       "id": "air_sec",
@@ -420,15 +440,23 @@
         "Ne pas arroser abondamment une plante transie"
       ],
       "prevention": [
+        "Éloigner la plante des courants d'air et des écarts brusques de température, surtout en hiver",
+        "Utiliser de l'eau à température ambiante",
         "Rentrer ou protéger les plantes fragiles avant les premières gelées",
         "Surveiller les alertes gel de l'appli"
       ],
       "gravite": "moyenne",
       "plantes": [],
-      "source": "connaissances horticoles générales - à recouper",
-      "statut": "a_recouper",
-      "sources": [],
-      "verification": "Pas encore recoupé avec des sources."
+      "source": "recoupé en partie le 01/11/2026 (RHS)",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "RHS - Leaf damage on houseplants (dégâts foliaires des plantes d'intérieur)",
+          "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants",
+          "type": "société savante"
+        }
+      ],
+      "verification": "La RHS confirme jaunissement par froid, chute brutale de température ou courants d'air, et taches pâles dues à l'eau froide. Gel extérieur, taille après reprise et arrosage d'une plante transie non confirmés par une source lue."
     },
     {
       "id": "eau_calcaire",
@@ -511,23 +539,32 @@
         "f_jaunes_general"
       ],
       "causes": [
-        "Plante qui a grandi",
-        "Terreau épuisé"
+        "Plante qui a grandi (racines qui tournent au fond du pot ou sortent par les trous de drainage)",
+        "Terreau tassé ou épuisé"
       ],
       "traitement": [
-        "Rempoter dans un pot un peu plus grand (2 à 4 cm de diamètre de plus)",
-        "Démêler légèrement les racines"
+        "Sortir la plante du pot pour vérifier les racines",
+        "Rempoter dans un pot un peu plus grand (RHS: au plus un tiers plus grand; pour un pot de moins de 25 cm, environ 2,5 à 5 cm de plus en largeur et profondeur)",
+        "Démêler les racines enroulées et couper les racines pourries ou molles",
+        "Arroser abondamment après rempotage"
       ],
       "prevention": [
-        "Rempoter à la fréquence indiquée sur la fiche",
-        "Au printemps de préférence"
+        "Rempoter à la fréquence indiquée sur la fiche (RHS: tous les 3 à 5 ans pour la plupart des plantes)",
+        "Au printemps ou début d'été de préférence, éviter l'automne et l'hiver",
+        "Éviter un pot trop grand (risque de surpotage)"
       ],
       "gravite": "faible",
       "plantes": [],
-      "source": "connaissances horticoles générales - à recouper",
-      "statut": "a_recouper",
-      "sources": [],
-      "verification": "Pas encore recoupé avec des sources."
+      "source": "recoupé en partie le 01/11/2026 (RHS)",
+      "statut": "partielle",
+      "sources": [
+        {
+          "titre": "RHS - How to repot a plant (rempoter une plante)",
+          "url": "https://www.rhs.org.uk/advice/profile?PID=1122",
+          "type": "société savante"
+        }
+      ],
+      "verification": "Une seule source (RHS, qui parle surtout de plantes de jardin et de conteneurs). Les plantes d'intérieur à croissance rapide peuvent demander un rythme plus soutenu; symptômes de flétrissement et sol sec non confirmés."
     },
     {
       "id": "pas_de_fleurs",
